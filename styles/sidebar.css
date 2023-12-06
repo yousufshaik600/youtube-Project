@@ -1,0 +1,29 @@
+.lft{
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+    background-color: white ;
+    z-index: 2;
+}
+.sdim{
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.sdim1{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+.sdim:hover{
+    background-color: rgb(235, 235, 235);
+}
+.sdim div{
+    font-size: 10px;
+    font-family: roboto;
+}

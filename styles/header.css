@@ -1,0 +1,172 @@
+.header{
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228,228,228);
+    border-bottom-width: 1px;
+    z-index: 1;
+}
+.left-section{
+width: 160px;
+display: flex;
+align-items:center;
+justify-content: space-between;
+
+}
+.middle-section{
+flex: 1;
+margin-left: 70px;
+margin-right: 35px;
+display: flex;
+align-items: center;
+height: 40px;
+padding-left: 16px;
+align-items: center;
+max-width: 600px;
+}
+.right-section{
+width: 200px;
+height: 40px;
+display: flex;
+flex-shrink: 0;
+align-items: center;
+justify-content: space-between;
+}
+.search-bar{
+    height: 26px;
+    width: 100%;
+    border: none;
+}
+.humb{
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.youtbic{
+    width: 90px;
+    height: 20px;
+    cursor: pointer;
+}
+.serchic{
+    width: 24px;
+    height: 24px;
+}
+.bt1d{
+    width: 45px;
+}
+.srcic{
+    width: 64px;
+    height: 41px;
+    border: 1px;
+    border-color: gray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: solid;
+    margin-left: -1px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .srcic .tltp, .voice .tltp{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: -30px;
+    color: white;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+    .srcic:hover .tltp, .voice:hover .tltp{
+    opacity: 1;
+}
+.serchdv{
+    max-width: 530px;
+    height: 40px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    border-style: solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-width: 1px;
+    border-color: gray;
+    padding-left: 12px;
+    align-items: center;
+}
+.voice{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.up{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.you{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.not{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.notdv{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+}
+.pro{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.npt{
+    position: absolute;
+    background-color: red;
+    color: white;
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+.mod1{
+    width: 72px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+}
+.mod1:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
